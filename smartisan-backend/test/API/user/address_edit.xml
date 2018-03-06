@@ -1,0 +1,78 @@
+<RestClientRequest>
+  <option name="biscuits">
+    <list>
+      <Biscuit>
+        <option name="date" value="-1" />
+        <option name="domain" value="http://localhost:9999" />
+        <option name="name" value="uid" />
+        <option name="path" value="/" />
+        <option name="value" value="1" />
+      </Biscuit>
+    </list>
+  </option>
+  <option name="httpMethod" value="POST" />
+  <option name="urlBase" value="http://localhost:9999" />
+  <option name="urlPath" value="/user/address/edit" />
+  <option name="headers">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="Accept" />
+        <option name="value" value="*/*" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Cache-Control" />
+        <option name="value" value="no-cache" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Cookie" />
+        <option name="value" value="uid=1" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parameters">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="user_name" />
+        <option name="value" value="钟毅" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="telephone" />
+        <option name="value" value="13000001111" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="area_code" />
+        <option name="value" value="0714" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="phone" />
+        <option name="value" value="7612432" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="province" />
+        <option name="value" value="湖北省" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="city" />
+        <option name="value" value="黄石市" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="district" />
+        <option name="value" value="阳新县" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="street" />
+        <option name="value" value="绿景花园B1三单元501" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="id" />
+        <option name="value" value="5" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parametersEnabled" value="true" />
+  <option name="haveTextToSend" value="false" />
+  <option name="haveFileToSend" value="false" />
+  <option name="isFileUpload" value="false" />
+  <option name="textToSend" value="" />
+  <option name="filesToSend" value="" />
+</RestClientRequest>

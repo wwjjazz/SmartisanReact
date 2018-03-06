@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<script>
+    axios({
+        method: 'POST',
+        url: 'http://localhost:9999/user/login',
+        headers: {
+            //'content-type': 'application/x-www-form-urlencoded'
+//            'content-type': 'application/json'
+        },
+        data: {
+            username: 'zMouse',
+            password: '12345'
+        }
+    }).then( res => {
+        console.log(res);
+    } );
+</script>
+
+</body>
+</html>
