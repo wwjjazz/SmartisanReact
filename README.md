@@ -3,7 +3,7 @@
 ## 如何使用
 
 ```
-$ git clone https://github.com/ruanyf/react-babel-webpack-boilerplate.git <yourAppName>
+$ git clone https://github.com/wwjjazz/SmartisanReact.git <yourAppName>
 $ cd <yourAppName>
 ```
 
